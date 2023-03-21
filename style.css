@@ -130,15 +130,16 @@ footer {
         align-items: flex-start;
         row-gap: 24px;
         margin-top: -10rem;
+        width: 50rem;
     }
     .text h1 {
-        min-width: 33rem;
+        width: 33rem;
         font-size: 45px;
         line-height: 65px;
         text-align: left;
     }
     .text p {
-        min-width: 24rem;
+        width: 32rem;
         font-size: 18px;
         line-height: 28px;
         text-align: left;
