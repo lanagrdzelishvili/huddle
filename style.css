@@ -1,0 +1,108 @@
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+html {
+    /* font-size: 62.5%; */
+}
+
+body {
+    background: var(--violet);
+    background-image: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* width: 100vw;
+    height: 100vh; */
+}
+.logo {
+    width: 10rem;
+    margin: 2rem 0 3rem 2rem;
+}
+.imgd {
+    display: flex;
+    justify-content: center;
+}
+.img {
+    display: inline-block;
+    width: 20rem;
+    min-width: 50%;
+}
+.text {
+    padding: 0 47px 0 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 20px;
+}
+.text h1 {
+    min-width: 20rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.text p {
+    min-width: 19rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.text button {
+    width: 13rem;
+    height: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #684BB1;
+    background: #FFFFFF;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.fb, .tw, .ins {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    margin: 64px 0 40px 0;
+    border: 0.798301px solid #FFFFFF;
+    border-radius: 50%;
+}
+.fb svg path, .tw svg path, .ins svg path {
+    fill: white;
+}
+.fb svg {
+    width: 13px;
+    height: 13px;
+}
+.tw svg, .ins svg {
+    width: 13px;
+}
+
+
+
